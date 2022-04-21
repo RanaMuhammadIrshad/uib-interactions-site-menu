@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Inter:wght@100;200;300;400;500;700;800;900&family=Jura:wght@300;400;500;600;700&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Lobster&family=Montserrat:ital,wght@0,100;0,800;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lobster", cursive;
+  font-size: 1.6rem;
+}
+
+header {
+  background-color: #dbe1e2;
+  width: 40%;
+  margin: 20rem auto;
+  border-radius: 0px;
+  background: #e0e0e0;
+  box-shadow: 34px 34px 69px #747474, -34px -34px 69px #ffffff;
+}
+header ul li {
+  list-style-type: none;
+  padding: 1rem;
+  font-size: 8rem;
+}
+
+header ul li:first-child {
+  border-left: 10px solid #5366c3;
+  background: linear-gradient(to left, #dbe1e2 50%, #5366c3 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+header ul li:first-child:hover {
+  background-position: left;
+}
+
+header ul li:nth-child(2) {
+  border-left: 10px solid #3f83c0;
+  background: linear-gradient(to left, #dbe1e2 50%, #3f83c0 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+header ul li:nth-child(2):hover {
+  background-position: left;
+}
+header ul li:nth-child(3) {
+  border-left: 10px solid #2aa1bd;
+  background: linear-gradient(to left, #dbe1e2 50%, #2aa1bd 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+header ul li:nth-child(3):hover {
+  background-position: left;
+}
+header ul li:last-child {
+  border-left: 10px solid #15bfbb;
+  background: linear-gradient(to left, #dbe1e2 50%, #15bfbb 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+header ul li:last-child:hover {
+  background-position: left;
+}
