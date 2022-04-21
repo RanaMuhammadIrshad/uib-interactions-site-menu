@@ -37,6 +37,7 @@ header ul li:first-child {
 
 header ul li:first-child:hover {
   background-position: left;
+  color: white;
 }
 
 header ul li:nth-child(2) {
@@ -48,6 +49,7 @@ header ul li:nth-child(2) {
 
 header ul li:nth-child(2):hover {
   background-position: left;
+  color: white;
 }
 header ul li:nth-child(3) {
   border-left: 10px solid #2aa1bd;
@@ -58,6 +60,7 @@ header ul li:nth-child(3) {
 
 header ul li:nth-child(3):hover {
   background-position: left;
+  color: white;
 }
 header ul li:last-child {
   border-left: 10px solid #15bfbb;
@@ -68,4 +71,5 @@ header ul li:last-child {
 
 header ul li:last-child:hover {
   background-position: left;
+  color: white;
 }
